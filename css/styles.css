@@ -32,9 +32,12 @@ p {
 }
 
 hr {
-  border-top: 8px dotted lightgray;
-  width: 5%;
+  border-color: lightgray;
+  border-style: dotted;
+  border-top: 8px;
+  border-width: 8px;
   margin: 100px auto;
+  width: 3%;
 }
 
 .top-container {
@@ -56,6 +59,10 @@ hr {
 
 .greeting {
   margin-top: 0;
+}
+
+.course {
+  color:black;
 }
 
 .middle-container {
