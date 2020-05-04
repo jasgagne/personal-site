@@ -1,5 +1,4 @@
 body {
-  color: #40514e;
   font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
@@ -29,15 +28,13 @@ a {
 }
 
 p {
-  
-  line-height: 2;
+  color: #40514e;
 }
 
 hr {
-  border: dotted #eaf6f6 6px;
-  border-bottom: none;
+  border-top: 8px dotted lightgray;
+  width: 5%;
   margin: 100px auto;
-  width: 3%;
 }
 
 .top-container {
@@ -46,26 +43,27 @@ hr {
   position: relative;
 }
 
-.middle-container {
-  margin: 80px 0;
-}
-
-.profile-img {
-  border-radius: 100%;
-
-}
-
-.greeting {
-  margin-top: 25px;
-}
-
-.intro {
-  margin: auto;
+.profile {
+  line-height: 2;
+  margin: 0 auto;
   width: 30%;
 }
 
-.course {
-  color: black;
+.profile-img {
+  margin-top: 50px;
+  border-radius: 100%;
+}
+
+.greeting {
+  margin-top: 0;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.bottom-container p {
+  color: #eaf6f6;
 }
 
 .programmer {
@@ -103,9 +101,17 @@ hr {
   width: 20%;
 }
 
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
+.contact-me h2 {
+  margin-top: 100px;
+}
+
+.contact-me h3 {
+  margin: 50px auto;
+}
+
+.contact-me p {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .btn {
@@ -136,14 +142,19 @@ hr {
 }
 
 .bottom-container {
-  padding: 50px 0 20px;
+  padding: 50px 0 0 0;
   background-color: #66BFBF;
-  height: 100px;
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.bottom-container p {
+  padding-bottom: 20px;
+  /* margin-top: 30px; */
 }
 
 .footer-img {
-  margin: 0 15px;
-  width: 3%;
+  width: 2%;
 }
 
 .footer-img:hover {
@@ -155,8 +166,11 @@ hr {
   box-shadow: 0 0 10px #eaf6f6;
 }
 
-.copyright {
+.footer-link {
+  padding: 0 25px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
   color: #eaf6f6;
-  font-size: .75rem;
-  padding: 20px 0;
 }
